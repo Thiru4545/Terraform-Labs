@@ -1,10 +1,5 @@
-## Provider's Example
-
-# Configure the AWS Provider
+# Default provider
 provider "aws" {
-    version = "6.0.0"
-    access_key = "AKIAZ24ISOK6LAFT324F"
-    secret_key = "SECRET_KEY"
-    region     = "us-east-1"
+  region = "us-east-1"
 }
 
