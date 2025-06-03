@@ -1,8 +1,5 @@
-resource "aws_instance" "MyFirstInstnace" {
-  ami           = "ami-004364947f82c87a0"
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "demoinstance-${count.index}"
-  }
+provider "aws" {
+  access_key = "AKIAZ24ISOK6LAFT324F"
+  secret_key = "SECRET_KEY_HERE"
+  region     = "us-east-2"
 }
